@@ -1,0 +1,69 @@
+.tip-skyblue {
+	z-index:1000;
+	text-align:left;
+	padding:8px 10px;
+	min-width:50px;
+	max-width:300px;
+	color:rgb(127, 127, 125);
+	background-color: rgb(245, 245, 245);
+	background-image: -moz-linear-gradient(50% 0%, rgb(250, 250, 250), rgb(237, 237, 237));
+	background-repeat: repeat-x;
+	border: rgb(166, 166, 166) 1px solid;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1), inset 0 1px 0 #999;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1), inset 0 1px 0 #999;
+	-o-box-shadow: 0 1px 3px rgba(0,0,0,0.1), inset 0 1px 0 #999;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1), inset 0 1px 0 #999;
+	box-shadow: 2px 2px 5px #999;
+}
+.tip-skyblue .tip-inner {
+	font:bold 13px/15px 'trebuchet ms',arial,helvetica,sans-serif;
+	padding:0 3px 1px 3px;
+}
+.tip-skyblue1 .tip-arrow-top {
+	margin-top:-12px;
+	margin-left:0;
+	top:0;
+	left:0;
+	width:11px;
+	height:19px;
+	background:url(tip-skyblue_arrows.png) no-repeat;
+}
+.tip-skyblue1 .tip-arrow-right {
+	margin-top:0;
+	margin-left:-7px;
+	top:0;
+	left:100%;
+	width:18px;
+	height:13px;
+	background:url(tip-skyblue_arrows.png) no-repeat -20px 0;
+}
+.tip-skyblue1 .tip-arrow-bottom {
+	margin-top:-8px;
+	margin-left:0;
+	top:100%;
+	left:0;
+	width:11px;
+	height:20px;
+	background:url(tip-skyblue_arrows.png) no-repeat -40px 0;
+}
+.tip-skyblue1 .tip-arrow-left {
+	margin-top:0;
+	margin-left:-11px;
+	top:0;
+	left:0;
+	width:18px;
+	height:13px;
+	background:url(tip-skyblue_arrows.png) no-repeat -60px 0;
+}
+.tooltip {
+	display: none;	
+}
+.tooltiphead{
+	color:rgb(89, 89, 89);
+	font-size:15px;
+}

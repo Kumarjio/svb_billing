@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#page-wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+table {
+	border-collapse: collapse;
+}
+table td, table th {
+	border: 1px solid black;
+	padding: 5px;
+}
+#header {
+	height: 15px;
+	width: 100%;
+	margin: 20px 0;
+	background: #222;
+	text-align: center;
+	color: white;
+	font: bold 15px Helvetica, Sans-Serif;
+	text-decoration: uppercase;
+	letter-spacing: 20px;
+	padding: 8px 0px;
+}
+#address {
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+#customer {
+	overflow: hidden;
+}
+
+#customer-title {
+	font-size: 12px;
+	
+	float: left;
+}
+
+#items {
+	clear: both;
+	width: 100%;
+	margin: 15px 0 0 0;
+	min-height:600px;
+}
+#items th {
+	
+}
+#items tr.item-row {
+	height:15px;
+}
+#items tr.item-row td {
+	border: 0;
+	vertical-align: top;
+}
+.noboder td {
+	border: 0;
+	vertical-align: top;
+}
+#items td.sno {
+	width: 15px;
+	text-align:center;
+}
+#items td.sno {
+	width: 15px;
+	text-align:center;
+}
+#items td.item-name {
+	width: 575px;
+}
+#items td.qty {
+	text-align:center;
+	white-space:nowrap;
+}
+#items td.unit_cost{
+	width:70px;
+	white-space:nowrap;
+}
+#items td.price{
+	width:70px;
+	white-space:nowrap;
+}
+
+.price, .total-value, .unit_cost{
+	text-align:right;
+}
+
+#items td.description textarea, #items td.item-name textarea {
+	width: 100%;
+}
+#items td.total-line {
+	border-right: 0;
+	text-align: left;
+	white-space:nowrap
+}
+#items td.total-value {
+	border-left: 0;
+}
+
+#items td.balance {
+	background: #eee;
+}
+#items td.blank {
+	border: 0;
+}

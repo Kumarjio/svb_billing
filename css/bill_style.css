@@ -1,0 +1,188 @@
+@media print {
+	#page-wrap  * {
+	margin: 0;
+	padding: 0;
+}
+/*body {
+	font: 14px/1.4 Georgia, serif;
+}*/
+#page-wrap   {
+	font: 14px/1.4 Verdana, Geneva, sans-serif;
+}
+#page-wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+#page-wrap table {
+	border-collapse: collapse;
+}
+#page-wrap table td, table th {
+	border: 1px solid black;
+	padding: 5px;
+}
+#header {
+	height: 15px;
+	width: 100%;
+	margin: 20px 0;
+	background: #222;
+	text-align: center;
+	color: white;
+	font: bold 15px Helvetica, Sans-Serif;
+	text-decoration: uppercase;
+	letter-spacing: 20px;
+	padding: 8px 0px;
+}
+#address {
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+#customer {
+	overflow: hidden;
+}
+
+#customer-title {
+	font-size: 12px;
+	
+	float: left;
+}
+
+#items {
+	clear: both;
+	width: 100%;
+	margin: 15px 0 0 0;
+	min-height:600px;
+}
+#items th {
+	
+}
+#items tr.item-row {
+	height:15px;
+}
+#items tr.item-row td {
+	border: 0;
+	vertical-align: top;
+}
+.noboder td {
+	border: 0;
+	vertical-align: top;
+}
+#items td.sno {
+	width: 10px;
+	text-align:center;
+	font-size:13px;
+}
+#items td.pno {
+	width: 15px;
+	text-align:center;
+	font-size:13px;
+}
+
+#items td.item-name {
+	width: 600px;
+	white-space:nowrap;
+	font-size:13px;
+}
+#items td.qty {
+	width:15px;
+	text-align:center;
+	white-space:nowrap;
+	font-size:13px;
+}
+
+#items td.hsm {
+	width:15px;
+	text-align:center;
+	white-space:nowrap;
+	font-size:13px;
+}
+
+#items td.gst {
+	width:15px;
+	text-align:center;
+	white-space:nowrap;
+	font-size:13px;
+}
+#items td.unit_cost{
+	width:50px;
+	white-space:nowrap;
+	font-size:13px;
+}
+#items td.price{
+	width:120px;
+	white-space:nowrap;
+	font-size:13px;
+}
+#items td.paise{
+	width:15px;
+	white-space:nowrap;
+	text-align:right;
+	font-size:13px;
+}
+
+.price, .total-value, .unit_cost{
+	text-align:right;
+	font-size:13px;
+}
+
+#items td.description textarea, #items td.item-name textarea {
+	width: 100%;
+}
+#items td.total-line {
+	border-right: 0;
+	text-align: left;
+	white-space:nowrap;
+	font-size:12px;
+}
+#items td.total-value {
+	border-left: 0;
+}
+
+#items td.balance {
+	text-align:right;
+}
+#items td.blank {
+	border: 0;
+}
+
+.particulars {
+    display:none;
+}
+.noprint{
+	display:none;
+}
+.topbar{
+	display:none;
+}
+.container-fluid{
+	display:none;
+}
+.breadcrumbs{
+	border:none;
+	border-top: 0;
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.navi{
+	display:none;
+}
+.itemsList{
+	display:none;
+}
+.billPrint{
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.searchBox{
+	display:none;
+}
+.billing_datas,.alert-success{
+	display:none;
+}
+.bill_out{
+	display:block;
+}
+}

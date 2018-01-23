@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.searchBoxResult {
+	background-color: white;
+	z-index: 5000;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 41px;
+	margin-left: 25px;
+	display: none;
+	max-height: 250px;
+	overflow: auto;
+	word-break: break-strict;
+	border-left: #144596 2px solid;
+	border-right: #144596 2px solid;
+	border-bottom: #144596 2px solid;
+	padding-top: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: #144596 2px 2px 3px;
+}
+.searchBoxResult:hover {
+	cursor: pointer;
+}
+.searchBoxResult a:hover {
+text-decoration: none;
+}

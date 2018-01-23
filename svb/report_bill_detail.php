@@ -1,0 +1,1 @@
+<?php include"bill_detail.php"; ?>
