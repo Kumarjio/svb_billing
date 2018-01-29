@@ -1190,7 +1190,7 @@ class billing extends mysql
             <td style="border-top:#000 1px solid; border-bottom:1px #000000 solid;border-right:1px #000000 solid;text-align:right">00</td>
           </tr>
         </table>
-		<br/><br/>
+		<br/>
 		<table width="100%"><tr><td>
 		<table border="1" cellspacing="5" cellpadding="5">
 			<tr><th>Tax%</th><th>5%</th><th>12%</th><th>18%</th><th>28%</th><th>Total</th></tr>
@@ -1227,9 +1227,8 @@ class billing extends mysql
 			<tr><td>Account No.</td> <td>:</td> <td>1152135000002577</td></tr> 
 			<tr><td>IFSC</td> <td>:</td> <td>KVBL0001152</td></tr>  
 			<tr><td>Branch</td> <td>:</td> <td>KARUR WEST LNS</td></tr> 
-		</table><br>
-        
-		</td></tr></table><br><br>
+		</table>
+		</td></tr></table>
 		<div style="float:right"> For,<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SVB<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Auto Products</strong> </div>
         </div>
